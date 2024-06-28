@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Database Management System Terminologies</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        padding: 20px;
+    }
+    h2 {
+        color: #333;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+    }
+    p {
+        margin-bottom: 15px;
+    }
+    .term-image {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px 0;
+    }
+</style>
+</head>
+<body>
+
+<h1>Database Management System Terminologies</h1>
+
+<h2>Data</h2>
+<p>Data refers to distinct pieces of information, usually formatted in a special way for storage, processing, and retrieval.</p>
+<img src="https://via.placeholder.com/150" alt="Data" class="term-image">
+
+<h2>Information</h2>
+<p>Information is data that has been processed or organized in a meaningful way to provide context and relevance.</p>
+<img src="https://via.placeholder.com/150" alt="Information" class="term-image">
+
+<h2>Metadata</h2>
+<p>Metadata is data that describes other data. It provides information about the characteristics of data, such as its structure, format, and relationships.</p>
+<img src="https://via.placeholder.com/150" alt="Metadata" class="term-image">
+
+<h2>Data Dictionary</h2>
+<p>A data dictionary is a centralized repository of information about data, including definitions, attributes, and relationships.</p>
+<img src="https://via.placeholder.com/150" alt="Data Dictionary" class="term-image">
+
+<h2>Database</h2>
+<p>A database is an organized collection of structured information, typically stored electronically in a computer system.</p>
+<img src="https://via.placeholder.com/150" alt="Database" class="term-image">
+
+<h2>Tuple</h2>
+<p>In the context of databases, a tuple is a row or record representing a single instance of data within a table.</p>
+<img src="https://via.placeholder.com/150" alt="Tuple" class="term-image">
+
+<h2>Table</h2>
+<p>A table is a collection of data organized in rows and columns, where each row represents a record and each column represents a field.</p>
+<img src="https://via.placeholder.com/150" alt="Table" class="term-image">
+
+<h2>Field</h2>
+<p>A field is a single piece of data within a record or row of a database table. It corresponds to a column in a table.</p>
+<img src="https://via.placeholder.com/150" alt="Field" class="term-image">
+
+<h2>Domain</h2>
+<p>A domain refers to the set of possible values that a particular attribute or column in a database table can have.</p>
+<img src="https://via.placeholder.com/150" alt="Domain" class="term-image">
+
+<h2>Key</h2>
+<p>In database management, a key is a field or combination of fields that uniquely identifies a record or row in a table.</p>
+<img src="https://via.placeholder.com/150" alt="Key" class="term-image">
+
+<h2>Constraint</h2>
+<p>A constraint is a rule that enforces limits or conditions on the data that can be stored or manipulated in a database.</p>
+<img src="https://via.placeholder.com/150" alt="Constraint" class="term-image">
+
+</body>
+</html>
