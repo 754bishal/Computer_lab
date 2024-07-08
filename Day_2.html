@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title> Keysand normalization</title>
+        <link rel="stylesheet" href="Style_common_for_all.css">
+    </head>
+    <body>
+        <a href="Home_page.html">Home</a>
+        <h1> Day 2</h1>
+        <h2> 1. What is a key in Database mangement system? Expalin the differrent types of keys. </h2>
+       <b>Answer</b>: A key in DBMS is an attribute or a set of attributes that help to uniquely i
+        dentify a tuple (or row) in a relation (or table). Keys are also used to establish relationships between 
+        the different tables and columns of a relational database. Individual values in a key are called key values.
+        The different types of keys used in DBMS are:
+        <ol type="a">
+            <li><b> Super key</b> : Super Key is the set of all the keys which help to identify rows in a table uniquely. This means that all those columns of a table than capable of identifying the other columns of that table uniquely will all be considered super keys.</li>
+             <li> <b> Candidate key : </b> Candidate keys are those attributes that uniquely identify rows of a table.
+                     The Primary Key of a table is selected from one of the candidate keys. 
+                     There can be more than one candidate keys in a table.</li>
+<li> <b> Alternate Key: </b>  A table can have multiple choices for a primary key; however, it can choose only one. 
+    So, all the keys which did not become the primary Key are called alternate keys.</li>
+    <li> <b> Primary key: </b> primary key is a column of a table or a set of columns that helps to identify every record present in that table uniquely. There can be only one primary Key in a table. Also, the primary 
+        Key cannot have the same values repeating for any row. Every value of the primary key must be different 
+        with no repetitions.</li>
+    <li> <b>Foreign key: </b>Foreign Key is used to establish relationships between two tables. 
+        A foreign key will require each value in a column or set of columns to match the Primary Key of the 
+        referential table. 
+        Foreign keys help to maintain data and referential integrity.</li>
+    <li> <b> Composite key: </b>A composite Key is a set of two or more attributes that help identify each tuple 
+        in a table uniquely. The attributes in the set may not be unique when considered separately. However, when
+         taken all together, they will ensure uniqueness. The ‘concatenated key’ is another name for a composite 
+         key.</li>
+    <li> <b> Artificial key: </b>The key created using arbitrarily assigned data are known as artificial keys.
+         These keys are created when a primary key is large and complex and has no relationship with many 
+         other relations. 
+        The data values of the artificial keys are usually numbered in a serial order.</li>
+        </ol><br>
+    <h2>2. What is Normalization in Database Management system? Explain its concept. </h2>
+    <p><b> Answer:</b> Normalization is the process of organizing data in a database. 
+        It includes creating tables and establishing relationships between those tables according to rules designed both to protect the data and to make the database more flexible by eliminating redundancy and inconsistent dependency.</p>
+    <p> Redundant data wastes disk space and creates maintenance problems. If data that exists in more than one place must be changed, the data must be changed in exactly the same way in all locations. A customer address change is easier to implement if that data is stored only in the Customers table and nowhere else in the database.</p>
+<p> There are a few rules for database normalization. Each rule is called a "normal form." If the first rule is observed, the database is said to be in "first normal form." If the first three rules are observed, the database is considered to be in "third normal form." Although other levels of normalization are possible, third normal form is considered the highest level necessary for most applications.</p> 
+<P> As with many formal rules and specifications, real world scenarios don't always allow for perfect compliance. In general, normalization requires additional tables and some customers find this cumbersome. If you decide to violate one of the first three rules of normalization, make sure that your application anticipates any problems that could occur, such as redundant data and inconsistent dependencies.</P>
+</body>
+</html>

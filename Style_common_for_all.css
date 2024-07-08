@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+    line-height: 1.6;
+    padding: 20px;
+}
+h1 {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: left;
+}
+p {
+    margin-bottom: 15px;
+}
+term-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
